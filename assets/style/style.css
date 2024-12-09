@@ -1,6 +1,6 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #303030;
+  background-color: #004ad3;
   color: #fff;
   margin: 0;
 }
@@ -82,6 +82,19 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(0, 78, 131);
 }
 
+.intro_appdate {
+  font-size: 30px;
+
+  text-decoration: none;
+  color: #fff;
+
+  transition: all 0.2s;
+}
+
+.intro_appdate:hover {
+  color: #6e6e6e;
+}
+
 
 
 @media (max-width: 1350px) {
@@ -118,6 +131,10 @@ h1, h2, h3, h4, h5, h6 {
 
     margin: 0 55%;
   }
+
+  .intro_appdate {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -153,6 +170,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 180px;
 
     margin: 0 40%;
+  }
+
+  .intro_appdate {
+    font-size: 25px;
   }
 }
 
@@ -198,6 +219,10 @@ h1, h2, h3, h4, h5, h6 {
 
     margin: 0 40%;
   }
+
+  .intro_appdate {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -225,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
     height: 80px;
 
-    padding: 20px;
+    padding: 25px;
     margin: 400px 20px;
   }
 
@@ -235,6 +260,10 @@ h1, h2, h3, h4, h5, h6 {
     height: 100px;
 
     margin: 0 40px;
+  }
+
+  .intro_appdate {
+    font-size: 18px;
   }
 }
 
@@ -278,6 +307,10 @@ h1, h2, h3, h4, h5, h6 {
 
     margin: 0 20px;
   }
+
+  .intro_appdate {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -320,4 +353,175 @@ h1, h2, h3, h4, h5, h6 {
 
     margin: 0 20px;
   }
+
+  .intro_appdate {
+    font-size: 15px;
+  }
+}
+
+
+/* What do you have to do to be like a criminal? */
+.criminal_title {
+  display: flex;
+  justify-content: center;
+
+  margin: 90px 0px;
+}
+
+.criminals {
+  display: flex;
+
+  margin: 150px 0;
+}
+
+.criminals_bluelet {
+  display: flex;
+
+  margin: 0 auto;
+
+  background-color: #4f00ce;
+}
+
+/* Criminals */
+.criminals_1 {
+  position: relative;
+
+  width: 200px;
+  height: 200px;
+
+  transition: all 0.3s ease;
+
+  background: linear-gradient(90deg, rgba(20,13,121,1) 0%, rgba(8,63,125,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.criminals_1 img {
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.criminals_1_text {
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  left: 50%;
+
+  user-select: none;
+  
+  font-size: 24px;
+  opacity: 0;
+
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+
+
+.criminals_2 {
+  position: relative;
+
+  width: 200px;
+  height: 200px;
+
+  transition: all 0.3s ease;
+
+  background: linear-gradient(90deg, rgba(20,13,121,1) 0%, rgba(8,63,125,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.criminals_2_text {
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  left: 50%;
+
+  user-select: none;
+  
+  font-size: 24px;
+  opacity: 0;
+
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+
+
+.criminals_2 img {
+  transition: all 0.3s ease;
+}
+
+
+
+.criminals_3 {
+  position: relative;
+
+  width: 200px;
+  height: 200px;
+
+  transition: all 0.3s ease;
+
+  background: linear-gradient(90deg, rgba(20,13,121,1) 0%, rgba(8,63,125,1) 43%, rgba(0,212,255,1) 100%);
+}
+
+.criminals_3 img {
+  transition: all 0.3s ease;
+}
+
+.criminals_3_text {
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  left: 50%;
+
+  user-select: none;
+  
+  font-size: 24px;
+  opacity: 0;
+
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+
+
+/* Criminals animation */
+.criminals_1:hover {
+  transform: translate(10px, -10px);
+}
+
+.criminals_1:hover img {
+  opacity: 0.5;
+}
+
+.criminals_1:hover h3{
+  opacity: 1; 
+}
+
+
+
+.criminals_2:hover {
+  transform: translate(10px, -10px);
+}
+
+.criminals_2:hover img{
+  opacity: 0.5;
+}
+
+.criminals_2:hover h3{
+  opacity: 1; 
+}
+
+
+
+.criminals_3:hover {
+  transform: translate(10px, -10px);
+}
+
+.criminals_3:hover img{
+  opacity: 0.5;
+}
+
+.criminals_3:hover h3{
+  opacity: 1; 
 }
