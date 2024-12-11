@@ -525,3 +525,63 @@ h1, h2, h3, h4, h5, h6 {
 .criminals_3:hover h3{
   opacity: 1; 
 }
+
+
+
+/* Criminals optimization */
+@media (max-width: 768px) {
+  .criminal_title {
+    font-size: 22px;
+  }
+
+  .criminals_bluelet {
+    width: 150px;
+    height: 150px;  
+  }
+
+  .criminals_1 , .criminals_2 , .criminals_3 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .criminals_1 img, .criminals_2 img, .criminals_3 img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .criminals_1_text, .criminals_2_text, .criminals_3_text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .criminal_title {
+    font-size: 18px;
+  }
+
+  .criminals_bluelet {
+    width: 100px;
+    height: 100px;  
+  }
+
+  .criminals_1 , .criminals_2 , .criminals_3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .criminals_1 img, .criminals_2 img, .criminals_3 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .criminals_1_text, .criminals_2_text, .criminals_3_text {
+    font-size: 16px;
+  }
+}
+
+
+
+/* Crime statistics of that hamster */
+
+
+
